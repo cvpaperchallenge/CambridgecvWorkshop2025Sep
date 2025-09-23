@@ -85,33 +85,7 @@ function Home() {
           <h2 className="text-3xl font-bold tracking-tighter">
             About Cambridge Computer Vision Workshop
           </h2>
-          <p>
-            Recently, Transformer-based foundation models have achieved
-            outstanding performance across a broad spectrum of benchmarks
-            spanning recognition and generation tasks, and their versatility has
-            fueled rapid advances in both AI research and industrial deployment.
-            To seamlessly adapt these models to downstream tasks in diverse
-            real-world domains-including medicine, manufacturing, robotics, and
-            the creative industries-and thereby deliver tangible impact on human
-            life, it is indispensable to develop Tech Transfer technologies that
-            encompass domain-specific fine-tuning and robust MLOps pipelines,
-            where the decisive factor is the breadth and quality of data
-            available for those tasks. At the same time, model evaluation is
-            approaching saturation on conventional IID benchmarks, prompting
-            growing calls to redesign evaluation metrics and tasks that dispense
-            with the IID assumption and explicitly capture out-of-distribution
-            (OOD) and long-tail phenomena. Advancing both (i) Tech Transfer to
-            heterogeneous downstream tasks and (ii) the definition of
-            next-generation evaluation criteria therefore hinges on curating and
-            exploiting broader and deeper data resources-Foundation Data, as we
-            term them. Against this backdrop, the ICCV 2025 workshop “FOUND:
-            Foundation Data for Industrial Tech Transfer” will convene
-            researchers from industry and academia to share techniques for
-            realizing Foundation Data and to engage in comprehensive discussions
-            on model adaptation and the design of novel evaluation tasks
-            grounded in such data, with the ultimate aim of opening new horizons
-            for AI research and application.
-          </p>
+          <p>TBD</p>
         </div>
       </section>
 
