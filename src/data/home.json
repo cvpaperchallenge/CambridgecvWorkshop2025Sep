@@ -6,7 +6,7 @@
       "type": "Date and time",
       "icon": "Calendar",
       "description": "For general inquiries, please contact us at:",
-      "value": "September 25, 2025, 11:00-17:00 (GMT)"
+      "value": "September 25, 2025, 13:00-17:00 (GMT)"
     },
     {
       "type": "Location",
@@ -27,87 +27,121 @@
         {
           "time": "11:00 - 11:30",
           "session": "Lab Tour",
-          "presenter": ""
+          "presenter": "",
+          "sessionUrl": "",
+          "presenterUrl": ""
         },
         {
           "time": "11:30 - 13:00",
           "session": "Lunch Time",
-          "presenter": ""
+          "presenter": "",
+          "sessionUrl": "",
+          "presenterUrl": ""
         },
         {
           "time": "13:00 - 13:15",
           "session": "Opening Remarks",
-          "presenter": "Elliott Wu (Cambridge)"
+          "sessionUrl": "",
+          "presenter": "Elliott Wu (Cambridge)",
+          "presenterUrl": "https://elliottwu.com/"
         },
         {
           "time": "13:15 - 13:30",
-          "session": "AnimalClue: Recognizing Animals by their Traces (ICCV 2025 Highlight)",
-          "presenter": "Hirokatsu Kataoka (AIST / Oxford)"
+          "session": "AnimalClue: Recognizing Animals by their Traces",
+          "presenter": "Hirokatsu Kataoka (AIST / Oxford)",
+          "sessionUrl": "https://dahlian00.github.io/AnimalCluePage/",
+          "presenterUrl": "https://hirokatsukataoka.net/"
         },
         {
           "time": "13:30 - 13:45",
           "session": "Articulate3D: Zero-Shot Text-Driven 3D Object Posing",
-          "presenter": ""
+          "presenter": "Oishi Deb (Oxford)",
+          "sessionUrl": "https://odeb1.github.io/articulate3d_page_deb/",
+          "presenterUrl": "https://www.linkedin.com/in/oishi-deb-61737386/"
         },
         {
           "time": "13:45 - 14:00",
           "session": "",
-          "presenter": "Kenzo Yamabuki (Wakayama Kosen)"
+          "presenter": "Kenzo Yamabuki (Wakayama Kosen)",
+          "sessionUrl": "",
+          "presenterUrl": "https://kenzo-yamabuki.com/"
         },
         {
           "time": "14:00 - 14:15",
           "session": "",
-          "presenter": "Mohammadreza Salehi (UvA)"
+          "presenter": "Mohammadreza Salehi (UvA)",
+          "sessionUrl": "",
+          "presenterUrl": "https://smsd75.github.io/"
         },
         {
           "time": "14:15 - 14:30",
           "session": "Do computer vision foundation models learn the low-level characteristics of the human visual system?",
-          "presenter": "Yancheng Cai (Cambridge, Rainbow)"
+          "presenter": "Yancheng Cai (Cambridge, Rainbow)",
+          "sessionUrl": "https://www.cl.cam.ac.uk/research/rainbow/projects/vfm_hvs/",
+          "presenterUrl": "https://caiyancheng.github.io/academic.html"
         },
         {
           "time": "14:30 - 15:15",
           "session": "Coffee Break / Photo",
-          "presenter": ""
+          "presenter": "",
+          "sessionUrl": "",
+          "presenterUrl": ""
         },
         {
           "time": "15:15 - 15:30",
           "session": "Large Concept Model",
-          "presenter": "Kaede Sugano (Imperial College London)"
+          "presenter": "Kaede Sugano (Imperial College London)",
+          "sessionUrl": "",
+          "presenterUrl": "https://masason-foundation.org/en/cpt_testimonial/jerry-williams-2/"
         },
         {
           "time": "15:30 - 15:45",
           "session": "",
-          "presenter": "Hubert P. H. Shum (Durham)"
+          "presenter": "Hubert P. H. Shum (Durham)",
+          "sessionUrl": "",
+          "presenterUrl": "https://hubertshum.com/"
         },
         {
           "time": "15:45 - 16:00",
           "session": "Feed-forward dynamic scene reconstruction",
-          "presenter": "Hanxue Liang (Cambridge, CORE)"
+          "presenter": "Hanxue Liang (Cambridge, CORE)",
+          "sessionUrl": "",
+          "presenterUrl": "https://hanxuel.github.io/"
         },
         {
           "time": "16:00 - 16:15",
-          "session": "RL-GSBridge: 3D Gaussian Splatting Based Real2Sim2Real Method for Robotic Manipulation Learning (ICRA 2025)",
-          "presenter": "Guangming Wang (Cambridge, CV4DT)"
+          "session": "RL-GSBridge: 3D Gaussian Splatting Based Real2Sim2Real Method for Robotic Manipulation Learning",
+          "presenter": "Guangming Wang (Cambridge, CV4DT)",
+          "sessionUrl": "",
+          "presenterUrl": "https://guangmingw.github.io/"
         },
         {
           "time": "16:15 - 16:30",
           "session": "ActionReasoning: Robot Action Reasoning in 3D Space with LLM for Robotic Brick Stacking",
-          "presenter": "Yixiong Jing (Cambridge, CV4DT)"
+          "presenter": "Yixiong Jing (Cambridge, CV4DT)",
+          "sessionUrl": "",
+          "presenterUrl": "https://cv4dt.github.io/author/dr-yixiong-jing/"
         },
         {
           "time": "16:30 - 16:45",
           "session": "",
-          "presenter": "Wanru Yang (Cambridge, CV4DT)"
+          "presenter": "Wanru Yang (Cambridge, CV4DT)",
+          "sessionUrl": "",
+          "presenterUrl": "https://www.linkedin.com/in/wanru-yang/"
         },
         {
           "time": "16:45 - 17:00",
           "session": "",
-          "presenter": "Haibing Wu (Cambridge, CV4DT)"
+          "presenter": "Haibing Wu (Cambridge, CV4DT)",
+          "sessionUrl": "",
+          "presenterUrl": "https://scholar.google.com/citations?user=PrZX2hwAAAAJ&hl=en"
         },
         {
           "time": "17:00 -",
           "session": "Pub Social",
-          "presenter": ""
+          "presenter": "",
+          "sessionUrl": "",
+          "presenterUrl": ""
         }
       ]
     }
