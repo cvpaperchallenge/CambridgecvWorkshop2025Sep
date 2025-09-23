@@ -1,19 +1,18 @@
 import type { MetaFunction } from "react-router";
 
-const BASE_URL = "https://iccv2025-found-workshop.limitlab.xyz";
+const BASE_URL = "https://cambridgecvworkshop.limitlab.xyz";
 
 export const siteMetadata = {
-  siteName: "FOUND Workshop",
-  baseTitle: "FOUND Workshop at ICCV 2025",
+  siteName: "Cambridge Computer Vision Workshop",
+  baseTitle: "Cambridge Computer Vision Workshop 2025",
   description:
-    "FOUND (Foundation Data for Industrial Tech Transfer) Workshop at ICCV 2025 brings together industry and academic leaders to share advances in adapting foundation models and designing next-generation evaluation tasks.",
+    "Cambridge Computer Vision Workshop 2025 gathers researchers in Cambridge and LIMIT.Lab to share advances around computer vision and machine learning.",
   keywords: [
-    "ICCV 2025",
-    "FOUND Workshop",
-    "foundation models",
-    "tech transfer",
+    "Cambridge Computer Vision Workshop",
     "computer vision",
-    "foundation data",
+    "machine learning",
+    "Cambridge University",
+    "LIMIT.Lab",
   ],
   baseUrl: BASE_URL,
 };

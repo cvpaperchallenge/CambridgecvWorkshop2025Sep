@@ -23,8 +23,7 @@ import { createMeta } from "@/lib/metadata";
 export const meta: MetaFunction = () =>
   createMeta({
     title: "Cambridge Computer Vision Workshop",
-    description:
-      "Explore the FOUND Workshop at ICCV 2025, where researchers discuss adapting foundation models, next-generation evaluation metrics, and the key dates for participation.",
+    description: "Explore the Cambridge Computer Vision Workshop",
     path: "/",
   });
 

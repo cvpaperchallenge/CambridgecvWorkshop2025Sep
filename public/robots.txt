@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iccv2025-found-workshop.limitlab.xyz/sitemap.xml
+Sitemap: https://cambridgecvworkshop.limitlab.xyz/sitemap.xml
