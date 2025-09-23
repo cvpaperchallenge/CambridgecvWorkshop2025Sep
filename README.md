@@ -1,5 +1,1 @@
-# FOUND
-
-## Links
-
-- [Slack WG](https://found-lmv4776.slack.com)
+# Cambridge Computer Vision Workshop 2025 September

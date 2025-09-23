@@ -17,8 +17,6 @@ import {
   CardTitle,
 } from "../../components/ui/card";
 import homeData from "../../data/home.json";
-import scheduleData from "../../data/schedule.json";
-import contactData from "../../data/contact.json";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { createMeta } from "@/lib/metadata";
 
@@ -41,38 +39,10 @@ function Home() {
           </h1>
           <p className="text-xl text-muted-foreground">{homeData.subtitle}</p>
         </div>
-        {/* <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
-          <div className="flex items-center gap-2">
-            <Calendar className="h-5 w-5 text-primary" />
-            <span>{homeData.eventInfo.date}</span>
-          </div>
-        </div>
-        <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
-          <div className="flex items-center gap-2">
-            <MapPin className="h-5 w-5 text-primary" />
-            <span>{homeData.eventInfo.location}</span>
-          </div>
-        </div> */}
-        {/* <div className="flex flex-col sm:flex-row gap-4">
-          <Button asChild size="lg">
-            <Link to="/call-for-papers">Submit Paper</Link>
-          </Button>
-          <Button variant="outline" size="lg" asChild>
-            <Link to="/program">Check Workshop Program</Link>
-          </Button>
-        </div> */}
-      </section>
 
-      {/* Contact Information */}
-      <section className="space-y-6">
-        {/* <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
-            Contact Information
-          </h2>
-          <p className="text-muted-foreground">Ways to reach out to us</p>
-        </div> */}
+        {/* Information */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {contactData.contactInfo.map((info, index) => (
+          {homeData.info.map((info, index) => (
             <Card key={index}>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -84,9 +54,6 @@ function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                {/* <p className="text-sm text-muted-foreground">
-                  {info.description}
-                </p> */}
                 {info.value && (
                   <p className="font-medium">
                     {info.type === "Email" ? (
@@ -106,27 +73,6 @@ function Home() {
                     )}
                   </p>
                 )}
-                {/* {info.socialLinks && (
-                  <div className="flex gap-4 mt-2">
-                    {info.socialLinks.map((link, linkIndex) => (
-                      <Button
-                        key={linkIndex}
-                        variant="outline"
-                        size="sm"
-                        className="flex gap-2"
-                        asChild
-                      >
-                        <a href={link.url} target="_blank" rel="noreferrer">
-                          {link.icon === "X" && <X className="h-4 w-4" />}
-                          {link.icon === "SiSlack" && (
-                            <SiSlack className="h-4 w-4" />
-                          )}
-                          {link.name}
-                        </a>
-                      </Button>
-                    ))}
-                  </div>
-                )} */}
               </CardContent>
             </Card>
           ))}
@@ -167,82 +113,7 @@ function Home() {
             for AI research and application.
           </p>
         </div>
-        {/* <div className="grid gap-6 md:grid-cols-2">
-          <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Our Mission</h3>
-            <p>{homeData.overview.mission}</p>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Key Topics</h3>
-            <ul className="list-disc pl-5 space-y-2">
-              {homeData.overview.keyTopics.map((topic, index) => (
-                <li key={index}>{topic}</li>
-              ))}
-            </ul>
-          </div>
-        </div> */}
       </section>
-
-      {/* Important Dates Section */}
-      {/* <section className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
-            Important Dates
-          </h2>
-        </div>
-        <div className="relative border-l border-border pl-6 space-y-8">
-          {scheduleData.importantDates.map((date, index) => (
-            <div key={index} className="relative">
-              <div className="absolute -left-[32px] mt-1 h-4 w-4 rounded-full bg-primary"></div>
-              <div className="space-y-1">
-                <h3 className="font-semibold">{date.title}</h3>
-                <p className="text-muted-foreground flex items-center gap-2">
-                  <Calendar className="h-4 w-4" />
-                  {date.date}
-                </p>
-                <p className="text-sm">{date.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section> */}
-
-      {/* Topics Section */}
-      {/* <section className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
-            Topics of Interest
-          </h2>
-          <p>
-            The workshop focus on following topics across the diverse domains
-            covered by our organizers:
-          </p>
-          <div className="space-y-2">
-            <ol className="alpha-paren pl-5 space-y-1">
-              <li key="data-centric-approach" className="font-bold">
-                Data-centric approach
-              </li>
-              <ul className="list-disc pl-5 space-y-1">
-                {callForPapersData.topics.dataCentricApproach.map(
-                  (topic, index) => (
-                    <li key={index}>{topic}</li>
-                  ),
-                )}
-              </ul>
-              <li key="tech-transfer-approach" className="font-bold">
-                Tech transfer approach
-              </li>
-              <ul className="list-disc pl-5 space-y-1">
-                {callForPapersData.topics.techTransferApproach.map(
-                  (topic, index) => (
-                    <li key={index}>{topic}</li>
-                  ),
-                )}
-              </ul>
-            </ol>
-          </div>
-        </div>
-      </section> */}
 
       {/* Workshop Program - Day 1 */}
       <section className="space-y-6">
@@ -250,12 +121,6 @@ function Home() {
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Workshop Program
           </h2>
-          {/* <p className="text-muted-foreground flex items-center gap-2">
-            <Calendar className="h-4 w-4" />{" "}
-            {scheduleData.workshopProgram.day1.date}
-            <MapPin className="h-4 w-4 ml-4" />{" "}
-            {scheduleData.workshopProgram.day1.location}
-          </p> */}
         </div>
         <ScrollArea className="w-[80dvw] md:w-full">
           <Table>
@@ -269,7 +134,7 @@ function Home() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {scheduleData.workshopProgram.day1.schedule.map((item, index) => (
+              {homeData.workshopProgram.day1.schedule.map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-medium">{item.time}</TableCell>
                   <TableCell>{item.session}</TableCell>
@@ -288,7 +153,6 @@ function Home() {
       <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter">Latest News</h2>
-          {/* <p className="text-muted-foreground">Updates and announcements</p> */}
         </div>
         <div className="space-y-4">
           {homeData.latestNews.map((news, index) => (
