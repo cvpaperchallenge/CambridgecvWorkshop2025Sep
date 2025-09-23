@@ -107,15 +107,48 @@ function Home() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {homeData.workshopProgram.day1.schedule.map((item, index) => (
-                <TableRow key={index}>
-                  <TableCell className="font-medium">{item.time}</TableCell>
-                  <TableCell>{item.session}</TableCell>
-                  <TableCell className="hidden md:table-cell">
-                    {item.presenter}
-                  </TableCell>
-                </TableRow>
-              ))}
+              {homeData.workshopProgram.day1.schedule.map((item, index) => {
+                const sessionLabel = item.session?.trim()
+                  ? item.session
+                  : "TBA";
+                const presenterLabel = item.presenter?.trim()
+                  ? item.presenter
+                  : "";
+
+                return (
+                  <TableRow key={index}>
+                    <TableCell className="font-medium">{item.time}</TableCell>
+                    <TableCell>
+                      {item.sessionUrl ? (
+                        <a
+                          href={item.sessionUrl}
+                          className="text-primary hover:underline"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {sessionLabel}
+                        </a>
+                      ) : (
+                        sessionLabel
+                      )}
+                    </TableCell>
+                    <TableCell className="hidden md:table-cell">
+                      {item.presenterUrl ? (
+                        <a
+                          href={item.presenterUrl}
+                          className="text-primary hover:underline"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {presenterLabel}
+                        </a>
+                      ) : (
+                        presenterLabel
+                      )}
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
             </TableBody>
           </Table>
           <ScrollBar orientation="horizontal" />
