@@ -1,0 +1,43 @@
+{
+  "title": "Cambridge Computer Vision Workshop",
+  "subtitle": "Associated with LIMIT.Lab",
+  "eventInfo": {
+    "date": "September 25, 2025, 11:00-17:00 (GMT)",
+    "location": "Location: Lecture Theatre 6, Department of Engineering, Trumpington Street, Cambridge CB2 1PZ, UK"
+  },
+  "overview": {
+    "mission": "This workshop aims to bring together researchers and practitioners in the field of machine learning to discuss the latest advances and challenges in computer vision applications. We focus on innovative approaches, emerging techniques, and real-world implementations.",
+    "keyTopics": [
+      "Deep learning architectures for computer vision",
+      "Generative models and diffusion techniques",
+      "Self-supervised and unsupervised learning",
+      "Efficient and scalable ML systems",
+      "Applications in healthcare, robotics, and autonomous systems"
+    ]
+  },
+  "importantDates": [
+    {
+      "title": "Paper Submission",
+      "date": "July 15, 2025"
+    },
+    {
+      "title": "Notification",
+      "date": "August 15, 2025"
+    },
+    {
+      "title": "Camera Ready",
+      "date": "September 1, 2025"
+    },
+    {
+      "title": "Workshop Date",
+      "date": "October 15-16, 2025"
+    }
+  ],
+  "latestNews": [
+    {
+      "title": "Workshop page open",
+      "date": "June 1, 2025",
+      "content": "We are excited to announce that our workshop page is now live. We will continue to add information, so please check back regularly for updates."
+    }
+  ]
+}

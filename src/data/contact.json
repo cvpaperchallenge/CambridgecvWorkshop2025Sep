@@ -1,0 +1,74 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Get in touch with the Machine Learning Workshop team",
+  "contactInfo": [
+    {
+      "type": "Date and time",
+      "icon": "Calendar",
+      "description": "For general inquiries, please contact us at:",
+      "value": "September 25, 2025, 11:00-17:00 (GMT)"
+    },
+    {
+      "type": "Location",
+      "icon": "MapPin",
+      "description": "The workshop will be held at:",
+      "value": "Lecture Theatre 6, Department of Engineering, Trumpington Street, Cambridge CB2 1PZ, UK"
+    },
+    {
+      "type": "Contact",
+      "icon": "Mail",
+      "description": "For general inquiries, please contact us at:",
+      "value": "sw2181 AT cam.ac.uk"
+    }
+  ],
+  "contactForm": {
+    "fields": [
+      {
+        "id": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Your name"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "type": "email",
+        "placeholder": "Your email address"
+      },
+      {
+        "id": "subject",
+        "label": "Subject",
+        "type": "text",
+        "placeholder": "Message subject"
+      },
+      {
+        "id": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Your message"
+      }
+    ],
+    "submitButton": {
+      "text": "Send Message",
+      "icon": "Send"
+    }
+  },
+  "faq": [
+    {
+      "question": "How quickly will you respond to my inquiry?",
+      "answer": "We aim to respond to all inquiries within 2-3 business days. For urgent matters related to paper submissions or registration, please indicate this in your subject line."
+    },
+    {
+      "question": "Who should I contact for specific questions?",
+      "answer": "For paper submission questions, contact program-chairs@mlworkshop.org. For registration or logistics, contact registration@mlworkshop.org. For general inquiries, use our main contact email."
+    },
+    {
+      "question": "Can I request a meeting with the organizers?",
+      "answer": "Yes, you can request a meeting with the workshop organizers by sending an email with your availability and the purpose of the meeting. We'll do our best to accommodate your request."
+    },
+    {
+      "question": "How can I join the workshop community?",
+      "answer": "You can join our Slack channel for discussions with other participants and organizers. The invitation link will be sent to registered participants, or you can request access via email."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Schedule",
+  "subtitle": "Important dates and workshop program",
+  "importantDates": [
+    {
+      "title": "Workshop Date",
+      "date": "October 19, 2025, 9:00 AM - 12:30 PM (HST)",
+      "description": "Workshop sessions at ICCV 2025"
+    }
+  ],
+  "workshopProgram": {
+    "day1": {
+      "date": "October 19, 2025, 9:00 AM - 12:30 PM (HST)",
+      "location": "Room A3, Convention Center",
+      "schedule": [
+        {
+          "time": "11:00 - 11:30",
+          "session": "Lab Tour",
+          "presenter": ""
+        },
+        {
+          "time": "11:30 - 13:00",
+          "session": "Lunch Time",
+          "presenter": ""
+        },
+        {
+          "time": "13:00 - 13:15",
+          "session": "Opening Remarks",
+          "presenter": "Elliott Wu (Cambridge)"
+        },
+        {
+          "time": "13:15 - 13:30",
+          "session": "AnimalClue: Recognizing Animals by their Traces (ICCV 2025 Highlight)",
+          "presenter": "Hirokatsu Kataoka (AIST / Oxford)"
+        },
+        {
+          "time": "13:30 - 13:45",
+          "session": "Articulate3D: Zero-Shot Text-Driven 3D Object Posing",
+          "presenter": ""
+        },
+        {
+          "time": "13:45 - 14:00",
+          "session": "",
+          "presenter": "Kenzo Yamabuki (Wakayama Kosen)"
+        },
+        {
+          "time": "14:00 - 14:15",
+          "session": "",
+          "presenter": "Mohammadreza Salehi (UvA)"
+        },
+        {
+          "time": "14:15 - 14:30",
+          "session": "Do computer vision foundation models learn the low-level characteristics of the human visual system?",
+          "presenter": "Yancheng Cai (Cambridge, Rainbow)"
+        },
+        {
+          "time": "14:30 - 15:15",
+          "session": "Coffee Break / Photo",
+          "presenter": ""
+        },
+        {
+          "time": "15:15 - 15:30",
+          "session": "Large Concept Model",
+          "presenter": "Kaede Sugano (Imperial College London)"
+        },
+        {
+          "time": "15:30 - 15:45",
+          "session": "",
+          "presenter": "Hubert P. H. Shum (Durham)"
+        },
+        {
+          "time": "15:45 - 16:00",
+          "session": "Feed-forward dynamic scene reconstruction",
+          "presenter": "Hanxue Liang (Cambridge, CORE)"
+        },
+        {
+          "time": "16:00 - 16:15",
+          "session": "RL-GSBridge: 3D Gaussian Splatting Based Real2Sim2Real Method for Robotic Manipulation Learning (ICRA 2025)",
+          "presenter": "Guangming Wang (Cambridge, CV4DT)"
+        },
+        {
+          "time": "16:15 - 16:30",
+          "session": "ActionReasoning: Robot Action Reasoning in 3D Space with LLM for Robotic Brick Stacking",
+          "presenter": "Yixiong Jing (Cambridge, CV4DT)"
+        },
+        {
+          "time": "16:30 - 16:45",
+          "session": "",
+          "presenter": "Wanru Yang (Cambridge, CV4DT)"
+        },
+        {
+          "time": "16:45 - 17:00",
+          "session": "",
+          "presenter": "Haibing Wu (Cambridge, CV4DT)"
+        },
+        {
+          "time": "17:00 -",
+          "session": "Pub Social",
+          "presenter": ""
+        }
+      ]
+    }
+  },
+  "presenterGuidelines": {
+    "oralPresentation": {
+      "title": "Oral Presentation Guidelines",
+      "content": "Each oral presentation will be allocated 15 minutes, followed by 5 minutes for questions and answers.",
+      "guidelines": [
+        "Prepare slides in 16:9 format",
+        "Upload your presentation at least 30 minutes before your session",
+        "Include your paper title, authors, and affiliations on the first slide",
+        "A timer will be visible to help you manage your time"
+      ]
+    },
+    "posterPresentation": {
+      "title": "Poster Presentation Guidelines",
+      "content": "Posters will be displayed during the dedicated poster session. At least one author must be present during this time.",
+      "guidelines": [
+        "Maximum poster size: 36\" x 48\" (91cm x 122cm)",
+        "Portrait orientation is recommended",
+        "Set up your poster 30 minutes before the session starts",
+        "Prepare a 2-minute elevator pitch for your work",
+        "Consider bringing handouts or QR codes linking to your paper/code"
+      ]
+    },
+    "technicalRequirements": {
+      "title": "Technical Requirements",
+      "content": "The following equipment will be provided for oral presentations:",
+      "requirements": [
+        "Projector with HDMI connection",
+        "Presenter remote",
+        "Microphone",
+        "Laser pointer"
+      ],
+      "note": "Please bring your own laptop or a USB drive with your presentation."
+    }
+  }
+}

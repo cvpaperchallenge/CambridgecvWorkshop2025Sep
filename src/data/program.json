@@ -1,0 +1,142 @@
+{
+  "title": "Program",
+  "subtitle": "Accepted papers, keynote speakers, and panel discussions",
+  "invitedSpeakers": [
+    {
+      "name": "Federico Tombari",
+      "affiliation": "Google Zurich",
+      "photo": "/program/federico.tombari-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://federicotombari.github.io"
+    },
+    {
+      "name": "Kiana Ehsani",
+      "affiliation": "Vercept",
+      "photo": "/program/kiana.ehsani-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://kianaehsani.com"
+    },
+    {
+      "name": "Shashanka Venkataramanan",
+      "affiliation": "INRIA",
+      "photo": "/program/shashanka.venkataramanan-512x512.jpg",
+      "title": "",
+      "bio": "",
+      "website": "https://shashankvkt.github.io"
+    }
+  ],
+  "acceptedPapers": {
+    "oral": [
+      {
+        "title": "Efficient Self-Supervised Learning for Computer Vision Tasks",
+        "authors": "A. Johnson, B. Williams, C. Davis",
+        "links": {
+          "paper": "#",
+          "video": "#"
+        }
+      },
+      {
+        "title": "Neural Rendering for 3D Scene Reconstruction",
+        "authors": "D. Miller, E. Wilson, F. Taylor",
+        "links": {
+          "paper": "#",
+          "video": "#"
+        }
+      },
+      {
+        "title": "Generative Models for Medical Image Synthesis",
+        "authors": "G. Brown, H. Martinez, I. Lee",
+        "links": {
+          "paper": "#",
+          "video": "#"
+        }
+      }
+    ],
+    "poster": [
+      {
+        "title": "Few-Shot Learning for Object Detection",
+        "authors": "J. Smith, K. Johnson, L. Garcia",
+        "links": {
+          "paper": "#"
+        }
+      },
+      {
+        "title": "Transformer-Based Architectures for Video Understanding",
+        "authors": "M. Chen, N. Patel, O. Kim",
+        "links": {
+          "paper": "#"
+        }
+      },
+      {
+        "title": "Efficient Neural Networks for Edge Devices",
+        "authors": "P. Wang, Q. Zhang, R. Singh",
+        "links": {
+          "paper": "#"
+        }
+      },
+      {
+        "title": "Reinforcement Learning for Robotic Control",
+        "authors": "S. Thompson, T. Anderson, U. Gupta",
+        "links": {
+          "paper": "#"
+        }
+      }
+    ]
+  },
+  "panelDiscussion": {
+    "title": "Panel: Challenges and Opportunities in Machine Learning",
+    "time": "October 16, 2025, 13:15 - 14:45",
+    "description": "This panel brings together experts from academia and industry to discuss current challenges and future opportunities in machine learning research and applications. Topics will include ethical considerations, computational efficiency, and emerging application domains.",
+    "panelists": [
+      "Prof. Jane Smith - Stanford University",
+      "Dr. John Doe - Research Lead, AI Lab",
+      "Dr. Sarah Johnson - Chief AI Officer, Tech Corp",
+      "Prof. Michael Chen - MIT"
+    ],
+    "moderator": "Prof. Robert Wilson - Workshop Chair"
+  },
+  "sessionStructure": [
+    {
+      "title": "Session 1: Deep Learning Architectures",
+      "time": "October 15, 10:30 - 12:00",
+      "description": "This session focuses on novel deep learning architectures and optimization techniques.",
+      "papers": [
+        "Efficient Self-Supervised Learning for Computer Vision Tasks",
+        "Transformer-Based Architectures for Video Understanding",
+        "Attention Mechanisms for Multi-Modal Learning"
+      ]
+    },
+    {
+      "title": "Session 2: Generative Models",
+      "time": "October 15, 13:30 - 15:00",
+      "description": "This session covers recent advances in generative modeling techniques.",
+      "papers": [
+        "Neural Rendering for 3D Scene Reconstruction",
+        "Generative Models for Medical Image Synthesis",
+        "Text-to-Image Synthesis with Diffusion Models"
+      ]
+    },
+    {
+      "title": "Session 3: Applications in Computer Vision",
+      "time": "October 16, 10:15 - 11:45",
+      "description": "This session explores practical applications of ML in computer vision.",
+      "papers": [
+        "Few-Shot Learning for Object Detection",
+        "3D Human Pose Estimation from Video",
+        "Visual Question Answering in Complex Scenes"
+      ]
+    },
+    {
+      "title": "Session 4: Emerging Techniques",
+      "time": "October 16, 15:15 - 16:45",
+      "description": "This session highlights emerging techniques and novel applications.",
+      "papers": [
+        "Efficient Neural Networks for Edge Devices",
+        "Reinforcement Learning for Robotic Control",
+        "Federated Learning for Privacy-Preserving ML"
+      ]
+    }
+  ]
+}
