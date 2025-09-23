@@ -9,7 +9,7 @@ import globals from 'globals';
 
 export default tseslint.config(
   {
-    name: 'found-homepage/ignore-patterns',
+    name: 'cambridgecvworkshop2025sep-homepage/ignore-patterns',
     ignores: [
       '**/node_modules',
       '**/dist',
@@ -18,7 +18,7 @@ export default tseslint.config(
     ],
   },
   {
-    name: 'found-homepage/base-config',
+    name: 'cambridgecvworkshop2025sep-homepage/base-config',
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
@@ -40,7 +40,7 @@ export default tseslint.config(
     },
   },
   {
-    name: 'found-homepage/global-rules',
+    name: 'cambridgecvworkshop2025sep-homepage/global-rules',
     extends: [
       eslint.configs.recommended,
     ],
@@ -60,7 +60,7 @@ export default tseslint.config(
     },
   },
   {
-    name: 'found-homepage/typescript-rules',
+    name: 'cambridgecvworkshop2025sep-homepage/typescript-rules',
     files: ['**/*.ts', '**/*.tsx'],
     extends: [
       tseslint.configs.strict,
@@ -75,7 +75,7 @@ export default tseslint.config(
     },
   },
   {
-    name: 'found-homepage/prettier-config',
+    name: 'cambridgecvworkshop2025sep-homepage/prettier-config',
     ...eslintConfigPrettier,
   }
 );
