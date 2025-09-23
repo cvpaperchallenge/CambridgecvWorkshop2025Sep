@@ -113,58 +113,7 @@ function Home() {
             for AI research and application.
           </p>
         </div>
-        {/* <div className="grid gap-6 md:grid-cols-2">
-          <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Our Mission</h3>
-            <p>{homeData.overview.mission}</p>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Key Topics</h3>
-            <ul className="list-disc pl-5 space-y-2">
-              {homeData.overview.keyTopics.map((topic, index) => (
-                <li key={index}>{topic}</li>
-              ))}
-            </ul>
-          </div>
-        </div> */}
       </section>
-
-      {/* Topics Section */}
-      {/* <section className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
-            Topics of Interest
-          </h2>
-          <p>
-            The workshop focus on following topics across the diverse domains
-            covered by our organizers:
-          </p>
-          <div className="space-y-2">
-            <ol className="alpha-paren pl-5 space-y-1">
-              <li key="data-centric-approach" className="font-bold">
-                Data-centric approach
-              </li>
-              <ul className="list-disc pl-5 space-y-1">
-                {callForPapersData.topics.dataCentricApproach.map(
-                  (topic, index) => (
-                    <li key={index}>{topic}</li>
-                  ),
-                )}
-              </ul>
-              <li key="tech-transfer-approach" className="font-bold">
-                Tech transfer approach
-              </li>
-              <ul className="list-disc pl-5 space-y-1">
-                {callForPapersData.topics.techTransferApproach.map(
-                  (topic, index) => (
-                    <li key={index}>{topic}</li>
-                  ),
-                )}
-              </ul>
-            </ol>
-          </div>
-        </div>
-      </section> */}
 
       {/* Workshop Program - Day 1 */}
       <section className="space-y-6">
@@ -172,12 +121,6 @@ function Home() {
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter">
             Workshop Program
           </h2>
-          {/* <p className="text-muted-foreground flex items-center gap-2">
-            <Calendar className="h-4 w-4" />{" "}
-            {scheduleData.workshopProgram.day1.date}
-            <MapPin className="h-4 w-4 ml-4" />{" "}
-            {scheduleData.workshopProgram.day1.location}
-          </p> */}
         </div>
         <ScrollArea className="w-[80dvw] md:w-full">
           <Table>
@@ -210,7 +153,6 @@ function Home() {
       <section className="space-y-6">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter">Latest News</h2>
-          {/* <p className="text-muted-foreground">Updates and announcements</p> */}
         </div>
         <div className="space-y-4">
           {homeData.latestNews.map((news, index) => (
