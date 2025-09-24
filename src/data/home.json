@@ -12,7 +12,8 @@
       "type": "Location",
       "icon": "MapPin",
       "description": "The workshop will be held at:",
-      "value": "Lecture Theatre 6, Department of Engineering, Trumpington Street, Cambridge CB2 1PZ, UK"
+      "value": "Lecture Theatre 6, Department of Engineering, Trumpington Street, Cambridge CB2 1PZ, UK",
+      "url": "https://maps.app.goo.gl/1zoAHFqkinckZats7"
     },
     {
       "type": "Contact",
@@ -61,7 +62,7 @@
         },
         {
           "time": "13:45 - 14:00",
-          "session": "",
+          "session": "Toward 3D Multi-animal Interaction Reconstruction",
           "presenter": "Kenzo Yamabuki (Wakayama Kosen)",
           "sessionUrl": "",
           "presenterUrl": "https://kenzo-yamabuki.com/"
@@ -103,7 +104,7 @@
         },
         {
           "time": "15:45 - 16:00",
-          "session": "Feed-forward dynamic scene reconstruction",
+          "session": "Feed-forward Dynamic Scene Reconstruction",
           "presenter": "Hanxue Liang (Cambridge, CORE)",
           "sessionUrl": "",
           "presenterUrl": "https://hanxuel.github.io/"
@@ -124,14 +125,14 @@
         },
         {
           "time": "16:30 - 16:45",
-          "session": "",
+          "session": "Tunnel Scanner: Geometry-Informed Synthetic Point Cloud Generation and Transfer Learning for Tunnel Segmentation",
           "presenter": "Wanru Yang (Cambridge, CV4DT)",
           "sessionUrl": "",
           "presenterUrl": "https://www.linkedin.com/in/wanru-yang/"
         },
         {
           "time": "16:45 - 17:00",
-          "session": "",
+          "session": "Unifying Any Waveform: Physics-guided Wave Re-rendering Towards Ground Penetrating Radar Foundation Models",
           "presenter": "Haibing Wu (Cambridge, CV4DT)",
           "sessionUrl": "",
           "presenterUrl": "https://scholar.google.com/citations?user=PrZX2hwAAAAJ&hl=en"

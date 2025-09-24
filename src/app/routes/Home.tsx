@@ -41,40 +41,56 @@ function Home() {
 
         {/* Information */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {homeData.info.map((info, index) => (
-            <Card key={index}>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  {info.icon === "Mail" && <Mail className="h-5 w-5" />}
-                  {info.icon === "MapPin" && <MapPin className="h-5 w-5" />}
-                  {info.icon === "SiSlack" && <SiSlack className="h-5 w-5" />}
-                  {info.icon === "Calendar" && <Calendar className="h-5 w-5" />}
-                  {info.type}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                {info.value && (
-                  <p className="font-medium">
-                    {info.type === "Email" ? (
-                      <a
-                        href={`mailto:${info.value}`}
-                        className="hover:text-primary"
-                      >
-                        {info.value}
-                      </a>
-                    ) : (
-                      info.value.split("\n").map((line, i) => (
-                        <span key={i}>
-                          {line}
-                          {i < info.value.split("\n").length - 1 && <br />}
-                        </span>
-                      ))
+          {homeData.info.map((info, index) => {
+            const lines = info.value ? info.value.split("\n") : [];
+            const formattedValue = lines.map((line, i) => (
+              <span key={i}>
+                {line}
+                {i < lines.length - 1 && <br />}
+              </span>
+            ));
+
+            return (
+              <Card key={index}>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    {info.icon === "Mail" && <Mail className="h-5 w-5" />}
+                    {info.icon === "MapPin" && <MapPin className="h-5 w-5" />}
+                    {info.icon === "SiSlack" && <SiSlack className="h-5 w-5" />}
+                    {info.icon === "Calendar" && (
+                      <Calendar className="h-5 w-5" />
                     )}
-                  </p>
-                )}
-              </CardContent>
-            </Card>
-          ))}
+                    {info.type}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  {info.value && (
+                    <p className="font-medium">
+                      {info.type === "Email" ? (
+                        <a
+                          href={`mailto:${info.value}`}
+                          className="hover:text-primary"
+                        >
+                          {info.value}
+                        </a>
+                      ) : info.url ? (
+                        <a
+                          href={info.url}
+                          className="hover:text-primary"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {formattedValue}
+                        </a>
+                      ) : (
+                        formattedValue
+                      )}
+                    </p>
+                  )}
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
       </section>
 
