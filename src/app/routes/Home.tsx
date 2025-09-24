@@ -84,7 +84,19 @@ function Home() {
           <h2 className="text-3xl font-bold tracking-tighter">
             About Cambridge Computer Vision Workshop
           </h2>
-          <p>TBD</p>
+          <p>
+            We are excited to announce the Cambridge Computer Vision Workshop,
+            hosted by the Department of Engineering at the University of
+            Cambridge and LIMIT.Lab. This workshop is not limited to internal
+            Cambridge collaborations. It embraces a broader context, including
+            partnerships across the UK, Netherlands, and Japan, as well as with
+            Oxford, Durham, UvA, Wakayama Kosen, and AIST. In particular, the
+            LIMIT.Lab research community aims to serve as a strong hub for
+            collaboration, accelerating research in AI, ML, CV, and related
+            academic fields. With this workshop at Cambridge, UK, we hope to
+            take an important first step toward fostering impactful research
+            collaborations.
+          </p>
         </div>
       </section>
 
