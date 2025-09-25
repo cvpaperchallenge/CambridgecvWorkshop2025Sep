@@ -55,31 +55,31 @@
         },
         {
           "time": "13:30 - 13:45",
-          "session": "Articulate3D: Zero-Shot Text-Driven 3D Object Posing",
-          "presenter": "Oishi Deb (Oxford)",
-          "sessionUrl": "https://odeb1.github.io/articulate3d_page_deb/",
-          "presenterUrl": "https://www.linkedin.com/in/oishi-deb-61737386/"
-        },
-        {
-          "time": "13:45 - 14:00",
           "session": "Toward 3D Multi-animal Interaction Reconstruction",
           "presenter": "Kenzo Yamabuki (Wakayama Kosen)",
           "sessionUrl": "",
           "presenterUrl": "https://kenzo-yamabuki.com/"
         },
         {
-          "time": "14:00 - 14:15",
+          "time": "13:45 - 14:00",
           "session": "MoSiC: Optimal-Transport Motion Trajectory for Dense Self-Supervised Learning",
           "presenter": "Mohammadreza Salehi (UvA)",
           "sessionUrl": "https://docs.google.com/presentation/d/1BZRLA1S7vNmEcvINIY7GTfP-HrjKHviOZnQ7zds6Agk/edit?usp=sharing",
           "presenterUrl": "https://smsd75.github.io/"
         },
         {
-          "time": "14:15 - 14:30",
+          "time": "14:00 - 14:15",
           "session": "Do computer vision foundation models learn the low-level characteristics of the human visual system?",
           "presenter": "Yancheng Cai (Cambridge, Rainbow)",
           "sessionUrl": "https://www.cl.cam.ac.uk/research/rainbow/projects/vfm_hvs/",
           "presenterUrl": "https://caiyancheng.github.io/academic.html"
+        },
+        {
+          "time": "14:15 - 14:30",
+          "session": "Articulate3D: Zero-Shot Text-Driven 3D Object Posing",
+          "presenter": "Oishi Deb (Oxford)",
+          "sessionUrl": "https://odeb1.github.io/articulate3d_page_deb/",
+          "presenterUrl": "https://www.linkedin.com/in/oishi-deb-61737386/"
         },
         {
           "time": "14:30 - 15:15",
