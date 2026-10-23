@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=node:23.9.0-bullseye-slim
+ARG BASE_IMAGE=node:24.22.1-bookworm-slim
 FROM ${BASE_IMAGE}
 
 # Define shared build arguments.
